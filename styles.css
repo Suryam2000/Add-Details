@@ -1,0 +1,57 @@
+
+
+.container1{
+    display: flex;
+}
+
+#leftbox{
+    width: 60vw;
+    border: 2px solid gold;   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#lefthead{
+    text-align: center;
+}
+
+#formbox{
+    padding: 50px;
+}
+
+#buttonform{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+
+#rightbox{
+    width: 40vw;
+    height: 100vh;
+    border: 2px solid gold;
+}
+
+#rightbox h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#table{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.tablerow{
+    margin: 10px;
+}
+
+span{
+    border: 2px solid green;
+    padding: 1px;
+    background-color: green;
+    color: white;
+}
